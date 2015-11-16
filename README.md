@@ -128,7 +128,7 @@ A collection of awesome web data visualization libraries. PR with your libraries
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/imaginea/uvCharts&type=star)
   
 * [amCharts](http://www.amcharts.com/): Charting library & maps. Where all data goes visual.
-  * License:  Commercial, Non-Commercial
+  * License:  Linkware license
   * Based on: -
   * Render as: SVG
   * Compressed size: 213KB
