@@ -1,10 +1,3 @@
-###Summary
-
-| Prize :trophy:        | Library           |
-| ------------- |:-------------:|
-| Lightweight      | [gRaphaël](http://g.raphaeljs.com) (12KB) |
-| Stars      | [Chart.js](http://www.chartjs.org) ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/nnnick/Chart.js&type=star)|
-
 * [HighCharts](http://www.highcharts.com): Create interactive charts easily for your web projects.
   * License:  Creative Commons Attribution-NonCommercial 3.0 License, Commercial
   * Based on: -
