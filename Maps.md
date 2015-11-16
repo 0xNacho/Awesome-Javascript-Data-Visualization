@@ -1,4 +1,3 @@
-
 * [Leaflet](http://leafletjs.com/): an open-source JavaScript library for mobile-friendly interactive maps
   * License:  BSD-2-Clause
   * Render as: HTML
