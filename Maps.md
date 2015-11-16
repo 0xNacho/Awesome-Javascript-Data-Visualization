@@ -26,5 +26,12 @@
   * Version: 3.14
   * Stars: Not a Github Project
 
+* [MapBox](https://www.mapbox.com/mapbox.js/api/v2.2.3/): Mapbox is a mapping platform for developers
+  * License:  Commercial
+  * Render as: HTML
+  * Compressed size: 196KB
+  * Version: 2.2.3
+  * Stars: Not a Github Project
+
 
 
