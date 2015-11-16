@@ -158,7 +158,12 @@ A collection of awesome web data visualization libraries. PR with your libraries
   * Version: 3.11.1
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/openlayers/ol3&type=star)
 
-
+* [GoogleMaps](http://openlayers.org/): Add the data developers trust. Build a custom map for your site using styled maps, 3D buildings, indoor floor plans, multi-modal directions and more.
+  * License:  Free, Commerial
+  * Render as: HTML
+  * Compressed size: Unknown
+  * Version: 3
+  * Stars: Not a Github project
 
 
 
