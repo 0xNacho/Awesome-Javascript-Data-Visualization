@@ -37,15 +37,37 @@ A collection of awesome web data visualization libraries. PR with your libraries
   * Based on: [Raphaël](http://raphaeljs.com)
   * Render as: SVG
 
-* [Chart.js](http://www.chartjs.org): Simple, clean and engaging charts for designers and developers
-  * License: MIT License
-  * Based on: -
-  * Render as: Canvas
 
 * [Google Charts](https://developers.google.com/chart/?hl=en): Interactive charts for browsers and mobile devices.
   * License:  Apache 2.0 License
   * Based on: -
   * Render as: SVG
+
+* [ChartistJS](http://gionkunz.github.io/chartist-js/): Simple responsive charts
+  * License:  Apache 2.0 License
+  * Based on: -
+  * Render as: SVG
+ 
+* [MetricsGraphicsJS](http://metricsgraphicsjs.org/): MetricsGraphics.js is a library built on top of D3 that is optimized for visualizing and laying out time-series data
+  * License:  Mozilla Public License, version 2.0
+  * Based on: [D3.js](http://d3js.org)
+  * Render as: SVG
+  
+* [dc.js](http://dc-js.github.io/dc.js/): dc.js is a javascript charting library with native crossfilter support and allowing highly efficient exploration on large multi-dimensional dataset
+  * License:  Apache 2.0 License
+  * Based on: [D3.js](http://d3js.org)
+  * Render as: SVG
+
+* [epochjs](http://epochjs.github.io/epoch/): A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations.
+  * License:  MIT License
+  * Based on: [D3.js](http://d3js.org)
+  * Render as: SVG
+
+
+
+
+
+
 
 
 
