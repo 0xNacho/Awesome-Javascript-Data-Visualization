@@ -54,7 +54,7 @@
   * Render as: SVG
   * Compressed size: Unknown
   * Version: Unknown
-  * Starts: Not a Github project
+  * Stars: Not a Github project
 
 * [ChartistJS](http://gionkunz.github.io/chartist-js/): Simple responsive charts
   * License:  Apache 2.0 License
