@@ -8,7 +8,7 @@ A collection of awesome web data visualization libraries. PR with your libraries
 
 | Prize :trophy:        | Library           |
 | ------------- |:-------------:|
-| Lightweight      | [gRaphaël](http://g.raphaeljs.com) |
+| Lightweight      | [gRaphaël](http://g.raphaeljs.com) (12KB) |
 
 
 
@@ -73,36 +73,50 @@ A collection of awesome web data visualization libraries. PR with your libraries
   * License:  Mozilla Public License, version 2.0
   * Based on: [D3.js](http://d3js.org)
   * Render as: SVG
+  * Compressed size: 78.2KB
+  * Version: 2.7.0
   
 * [dc.js](http://dc-js.github.io/dc.js/): dc.js is a javascript charting library with native crossfilter support and allowing highly efficient exploration on large multi-dimensional dataset
   * License:  Apache 2.0 License
   * Based on: [D3.js](http://d3js.org)
   * Render as: SVG
+  * Compressed size: 81.2KB
+  * Version: 2.1.0
 
 * [epochjs](http://epochjs.github.io/epoch/): A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations.
   * License:  MIT License
   * Based on: [D3.js](http://d3js.org)
   * Render as: SVG
+  * Compressed size: 68.8KB
+  * Version: 0.8.4
 
 * [Smoothie Charts](http://smoothiecharts.org/): JavaScript charts for realtime streaming data
   * License:  MIT License
   * Based on: -
   * Render as: Canvas
+  * Compressed size: 31.3KB
+  * Version: 1.27.0
 
 * [FusionCharts](http://www.fusioncharts.com/): The most comprehensive JavaScript charting library, with over 90 charts and 900 maps.
   * License:  Commercial
   * Based on: -
   * Render as: SVG
+  * Compressed size: 111KB
+  * Version: 3.9.0
   
 * [uvCharts](http://imaginea.github.io/uvCharts/): Simple yet powerful JavaScript Charting library built using d3.js 
   * License:  MIT License
   * Based on: [D3.js](http://d3js.org)
   * Render as: SVG
+  * Compressed size: 70KB
+  * Version: 0.1.0
 
 * [amCharts](http://www.amcharts.com/): Charting library & maps. Where all data goes visual.
   * License:  Commercial, Non-Commercial
   * Based on: -
   * Render as: SVG
+  * Compressed size: 213KB
+  * Version: 3
 
 ##Mapping Libraries :sunrise: :airplane: :airplane:
 
