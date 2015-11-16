@@ -1,7 +1,8 @@
-# Data-visualization
+# Data visualization libraries :closed_book: :closed_book:
 A collection of awesome web data visualization libraries. PR with your libraries!
 
-## Charting Libraries
+
+## Charting Libraries :bar_chart: :chart_with_upwards_trend: :chart_with_downwards_trend: :chart:
 * [HighCharts](http://www.highcharts.com): Create interactive charts easily for your web projects.
   * License:  Creative Commons Attribution-NonCommercial 3.0 License, Commercial
   * Based on: -
@@ -82,6 +83,12 @@ A collection of awesome web data visualization libraries. PR with your libraries
   * License:  Commercial, Non-Commercial
   * Based on: -
   * Render as: SVG
+
+##Mapping Libraries
+
+
+
+
 
 
 
