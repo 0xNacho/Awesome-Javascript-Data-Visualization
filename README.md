@@ -63,6 +63,30 @@ A collection of awesome web data visualization libraries. PR with your libraries
   * Based on: [D3.js](http://d3js.org)
   * Render as: SVG
 
+* [Smoothie Charts](http://smoothiecharts.org/): JavaScript charts for realtime streaming data
+  * License:  MIT License
+  * Based on: -
+  * Render as: Canvas
+
+* [FusionCharts](http://www.fusioncharts.com/): The most comprehensive JavaScript charting library, with over 90 charts and 900 maps.
+  * License:  Commercial
+  * Based on: -
+  * Render as: SVG
+  
+* [uvCharts](http://imaginea.github.io/uvCharts/): Simple yet powerful JavaScript Charting library built using d3.js 
+  * License:  MIT License
+  * Based on: [D3.js](http://d3js.org)
+  * Render as: SVG
+
+* [amCharts](http://www.amcharts.com/): Charting library & maps. Where all data goes visual.
+  * License:  Commercial, Non-Commercial
+  * Based on: -
+  * Render as: SVG
+
+
+
+
+
 
 
 
