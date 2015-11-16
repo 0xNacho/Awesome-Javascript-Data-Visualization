@@ -135,10 +135,28 @@ A collection of awesome web data visualization libraries. PR with your libraries
   * Version: 3
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/amcharts/amcharts3&type=star)
 
+##Mapping Libraries :sunrise: :airplane: 
 
-##Mapping Libraries :sunrise: :airplane: :airplane:
+###Summary
 
+| Prize :trophy:        | Library           |
+| ------------- |:-------------:|
+| Lightweight      | [LeafLet](http://leafletjs.com/) (126KB) |
+| Stars      | ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/Leaflet/Leaflet&type=star)|
 
+* [LeafLet](http://leafletjs.com/): an open-source JavaScript library for mobile-friendly interactive maps
+  * License:  BSD-2-Clause
+  * Render as: HTML
+  * Compressed size: 126KB
+  * Version: 0.7.7
+  * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/Leaflet/Leaflet&type=star)
+
+* [OpenLayers](http://openlayers.org/): A high-performance, feature-packed library for all your mapping needs.
+  * License:  BSD-2-Clause
+  * Render as: HTML
+  * Compressed size: 509KB
+  * Version: 3.11.1
+  * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/openlayers/ol3&type=star)
 
 
 
