@@ -59,11 +59,15 @@ A collection of awesome web data visualization libraries. PR with your libraries
   * License:  Apache 2.0 License
   * Based on: -
   * Render as: SVG
+  * Compressed size: Unknown
+  * Version: Unknown
 
 * [ChartistJS](http://gionkunz.github.io/chartist-js/): Simple responsive charts
   * License:  Apache 2.0 License
   * Based on: -
   * Render as: SVG
+  * Compressed size: 35.5KB
+  * Version: 0.9.5
  
 * [MetricsGraphicsJS](http://metricsgraphicsjs.org/): MetricsGraphics.js is a library built on top of D3 that is optimized for visualizing and laying out time-series data
   * License:  Mozilla Public License, version 2.0
