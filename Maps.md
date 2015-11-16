@@ -1,9 +1,3 @@
-###Summary
-
-| Prize :trophy:        | Library           |
-| ------------- |:-------------:|
-| Lightweight      | [Leaflet](http://leafletjs.com/) (126KB) |
-| Stars      | ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/Leaflet/Leaflet&type=star)|
 
 * [Leaflet](http://leafletjs.com/): an open-source JavaScript library for mobile-friendly interactive maps
   * License:  BSD-2-Clause
