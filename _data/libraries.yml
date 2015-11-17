@@ -1,0 +1,19 @@
+#Libraries
+- name: HighCharts
+  info: Create interactive charts easily for your web projects.
+  cdn:
+    js: https://cdnjs.cloudflare.com/ajax/libs/highcharts/4.1.9.1/highcharts.src.js
+    css:
+  examples:
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/t8xdz0Lg/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Basic Line
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/becb7ww5/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Ajax loaded data. Clickable points
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/yk9ed7fx/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: With Data labels
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/g8pvb5e8/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Time series (Zoomable)
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/44b1w09u/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Spline with inverted axes
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/749rmbjc/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Spline with symbols
