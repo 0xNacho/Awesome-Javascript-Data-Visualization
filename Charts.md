@@ -4,9 +4,10 @@
   * Render as: SVG
   * Compressed size: 165KB
   * Version: 4.1.9
-  * Stars: Not a Github project
+  * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/highslide-software/highcharts.com&type=star)
 
-* [NVD3](http://nvd3.org):This project is an attempt to build re-usable charts and chart components for d3.js without taking away the power that d3.js gives you. 
+
+*[NVD3](http://nvd3.org):This project is an attempt to build re-usable charts and chart components for d3.js without taking away the power that d3.js gives you. 
   * License: Apache License, Version 2.0 
   * Dependencies: [D3.js](http://d3js.org) (148KB, v3.5.8)
   * Render as: SVG
