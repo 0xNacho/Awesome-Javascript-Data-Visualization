@@ -18,7 +18,7 @@ A collection of awesome web data visualization libraries. PR with your libraries
 | Prize :trophy:        | Library           |
 | ------------- |:-------------:|
 | Lightweight      | [Leaflet](http://leafletjs.com/) (126KB) |
-| Stars      | ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/Leaflet/Leaflet&type=star)|
+| Stars      | [Leaflet](http://leafletjs.com/)![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/Leaflet/Leaflet&type=star)|
 
 ##Graphing Libraries :link:
 
