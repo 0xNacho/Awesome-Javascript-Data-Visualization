@@ -1,0 +1,39 @@
+{
+  "name": "Awesome javascript data visualization - Website",
+  "homepage": "https://github.com/0xNacho/Awesome-Javascript-Data-Visualization",
+  "authors": [
+    "0xNacho <nachogarcia91@gmail.com>"
+  ],
+  "description": "This website provides examples for each data visualization library described below",
+  "main": "",
+  "moduleType": [],
+  "dependencies": {
+    "bootstrap": "~3",
+    "angular": "~1.3",
+    "ng-elif": "~0.1.5"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "d3",
+    "nvd3",
+    "highcharts",
+    "charting",
+    "library",
+    "mapping",
+    "library",
+    "visual",
+    "svg",
+    "canvas"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets",
+    "public/lib",
+    "test",
+    "tests"
+  ]
+}

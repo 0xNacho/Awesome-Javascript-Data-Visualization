@@ -9,3 +9,10 @@ github_username:  0xNacho
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - "assets"
+  - "bower.json"
+  - "node_modules"
+  - "package.json"
+  - "Gruntfile.coffee"

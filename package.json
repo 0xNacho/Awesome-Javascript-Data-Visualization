@@ -1,0 +1,36 @@
+{
+  "name": "awesome-javascript-data-visualization",
+  "version": "0.1.0",
+  "description": "Awesome collection of data visualization libraries. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xNacho/Awesome-Javascript-Data-Visualization"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "d3",
+    "nvd3",
+    "highcharts",
+    "svg",
+    "canvas"
+  ],
+  "author": "0xNacho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xNacho/Awesome-Javascript-Data-Visualization/issues"
+  },
+  "homepage": "https://github.com/0xNacho/Awesome-Javascript-Data-Visualization",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-exec": "^0.4.6"
+  }
+}
