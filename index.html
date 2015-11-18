@@ -13,13 +13,11 @@ layout: default
     <div class="col-md-offset-4" ng-show="!show">
       <h1>&uarr;Select one library!&uarr;</h1>
     </div>
-  {% for l in site.data.libraries %}
-    {%for example in l.examples%}
-      <div class="col-md-6 col-xs-6 col-lg-6" ng-show="show.{{l.name}}">
-        {{example.html}}
-      </div>
-    {% endfor %}
-  {% endfor %}
-
-
+      {% for l in site.data.libraries %}
+        {%for example in l.examples%}
+          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.{{l.name}}">
+            {{example.html}}
+          </div>
+        {% endfor %}
+      {% endfor %}
 </div>

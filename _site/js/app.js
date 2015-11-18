@@ -1,7 +1,11 @@
 var app = angular.module('app',[]);
 
 app.controller('MainController', ['$scope', function($scope){
-	$scope.show = null;
+	$scope.show = {};
+	$scope.show.HighCharts = true;
+	$scope.show.amCharts = true;
+	$scope.show.nvD3 = true;
+
 
 	$scope.toggle = function(lib){
 		if($scope.show == null) $scope.show = {};
