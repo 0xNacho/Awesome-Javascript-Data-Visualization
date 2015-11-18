@@ -27,3 +27,6 @@ A collection of awesome web data visualization libraries. PR with your libraries
 | Prize :trophy:        | Library           |
 | ------------- |:-------------:|
 Coming soon...
+
+# Contributions
+
