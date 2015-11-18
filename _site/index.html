@@ -55,6 +55,10 @@
     <div class="page-content">
       <div class="wrapper">
         <div ng-app="app" ng-controller="MainController" class="container-fluid">
+  <div>
+
+    <h3>We already have: <span ng-bind="libraries"></span> libraries and <span ng-bind="examples"></span> examples!</h3>
+  </div>
   <div id="link-header">
     
       <a href="" ng-click="toggle('HighCharts')">HighCharts</a> | 
@@ -70,55 +74,75 @@
       <h1>&uarr;Select one library!&uarr;</h1>
     </div>
       
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.HighCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/t8xdz0Lg/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0" ng-click="alert(2)"></iframe>
-          </div>
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.HighCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/becb7ww5/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.HighCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/yk9ed7fx/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.HighCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/g8pvb5e8/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.HighCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/44b1w09u/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.HighCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/749rmbjc/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
+        <div class="lib" ng-show="show.HighCharts" ng-init="initializeLibrary('HighCharts')">
+          <h4>HighCharts</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('HighCharts')">
+              <p>Basic Line</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/t8xdz0Lg/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0" ng-click="alert(2)"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('HighCharts')">
+              <p>Ajax loaded data. Clickable points</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/becb7ww5/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('HighCharts')">
+              <p>With Data labels</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/yk9ed7fx/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('HighCharts')">
+              <p>Time series (Zoomable)</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/g8pvb5e8/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('HighCharts')">
+              <p>Spline with inverted axes</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/44b1w09u/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('HighCharts')">
+              <p>Spline with symbols</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/749rmbjc/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+        </div>
       
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.amCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/q5e3zeb2/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.amCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/z5uuLm8q/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.amCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/zm1vo8cd/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.amCharts">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/7kyLuw4p/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
+        <div class="lib" ng-show="show.amCharts" ng-init="initializeLibrary('amCharts')">
+          <h4>amCharts</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('amCharts')">
+              <p>Column With Rotated Series</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/q5e3zeb2/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('amCharts')">
+              <p>Simple column chart</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/z5uuLm8q/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('amCharts')">
+              <p>Stacked column chart</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/zm1vo8cd/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('amCharts')">
+              <p>Gantt chart</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/7kyLuw4p/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+        </div>
       
-        
-          <div class="col-md-6 col-xs-12 col-lg-6" ng-show="show.nvD3">
-            <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/c8oppbjs/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
-          </div>
-        
+        <div class="lib" ng-show="show.nvD3" ng-init="initializeLibrary('nvD3')">
+          <h4>nvD3</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('nvD3')">
+              <p>Multi-bar chart</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/c8oppbjs/embedded/result%2Cjs%2Chtml%2Ccss/" frameborder="0"></iframe>
+            </div>
+          
+        </div>
       
 </div>
 
@@ -185,7 +209,6 @@
     <script src="./vendor/js/bootstrap.min.js"></script>
     <script src="./vendor/js/angular.min.js"></script>
     <script src="./vendor/js/app.js"></script>
-
   </body>
 
 </html>
