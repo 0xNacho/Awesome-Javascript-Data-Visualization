@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>About</title>
+    <title>Graphs</title>
     <meta name="description" content="Awesome collection of data visualization libraries. Please help me to make it more awesome!">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="https://0xnacho.github.io/Awesome-Javascript-Data-Visualization/about/">
+    <link rel="canonical" href="https://0xnacho.github.io/Awesome-Javascript-Data-Visualization/graphs/">
     <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
 </head>
 
@@ -69,11 +69,62 @@
         <div class="post">
 
   <article class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+    <div ng-app="app" ng-controller="MainController" class="container-fluid">
+  <div class="container">
 
-<p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
+    <h3>What we already have: <span ng-bind="libraries"></span> graphing libraries and <span ng-bind="examples"></span> examples!</h3>
+  </div>
+  <div id="link-header">
+    
+      <a href="" ng-click="toggle('VivaGraphJS')">VivaGraphJS</a> | 
+    
+      <a href="" ng-click="toggle('sigmaJS')">sigmaJS</a> | 
+    
+      <a href="" ng-click="toggle('CytoscapeJS')">CytoscapeJS</a> | 
+    
+  </div>
+  <br/>
 
-<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
+    <div class="col-md-offset-4" ng-show="!show">
+      <h1>&uarr;Select one library!&uarr;</h1>
+    </div>
+      
+        <div class="row" ng-show="show.VivaGraphJS" ng-init="initializeLibrary('VivaGraphJS')">
+          <h4>VivaGraphJS</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('VivaGraphJS')">
+              <p>Simple example</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/6jepLx5z/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('VivaGraphJS')">
+              <p>Link labels</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/dycug9s5/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+        </div>
+      
+        <div class="row" ng-show="show.sigmaJS" ng-init="initializeLibrary('sigmaJS')">
+          <h4>sigmaJS</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('sigmaJS')">
+              <p>Simple example</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/21nykcr6/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+        </div>
+      
+        <div class="row" ng-show="show.CytoscapeJS" ng-init="initializeLibrary('CytoscapeJS')">
+          <h4>CytoscapeJS</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('CytoscapeJS')">
+              <p>Simple example</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/Lfnmwukt/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+        </div>
+      
+</div>
 
   </article>
 

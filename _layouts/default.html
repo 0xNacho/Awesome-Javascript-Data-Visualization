@@ -14,10 +14,11 @@
     </div>
 
     {% include footer.html %}
-    <script src="./vendor/js/jquery.min.js"></script>
-    <script src="./vendor/js/bootstrap.min.js"></script>
-    <script src="./vendor/js/angular.min.js"></script>
-    <script src="./vendor/js/app.js"></script>
+    {{ "/css/main.css" | prepend: site.baseurl }}
+    <script src="{{"/vendor/js/jquery.min.js" | prepend: site.baseurl}}"></script>
+    <script src="{{"/vendor/js/bootstrap.min.js" | prepend:site.baseurl}}"></script>
+    <script src="{{"/vendor/js/angular.min.js" | prepend: site.baseurl}}"></script>
+    <script src="{{"/vendor/js/app.js" | prepend: site.baseurl}}"></script>
   </body>
 
 </html>

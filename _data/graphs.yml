@@ -1,0 +1,28 @@
+- name: VivaGraphJS
+  info: Very fast + with the WebGL renderer it works thousands of nodes.
+  cdn:
+    js:
+    css:
+  examples:
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/6jepLx5z/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Simple example
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/dycug9s5/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Link labels
+
+- name: sigmaJS
+  info: Very flexible, includes out of the box support for touch, responsiveness, rescaling, recentering.
+  cdn:
+    js: https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.0.3/sigma.min.js
+    css:
+  examples:
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/21nykcr6/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Simple example
+
+- name: CytoscapeJS
+  info: Graph theory (a.k.a. network) library for analysis and visualisation.
+  cdn:
+    js: https://cdnjs.cloudflare.com/ajax/libs/cytoscape/2.5.0/cytoscape.js
+    css:
+  examples:
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/Lfnmwukt/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Simple example

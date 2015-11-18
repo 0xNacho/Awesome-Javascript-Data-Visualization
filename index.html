@@ -2,30 +2,9 @@
 layout: default
 ---
 
-<div ng-app="app" ng-controller="MainController" class="container-fluid">
-  <div>
-
-    <h3>What we already have: <span ng-bind="libraries"></span> libraries and <span ng-bind="examples"></span> examples!</h3>
+<div  class="container-fluid">
+  <div class="row">
+   
   </div>
-  <div id="link-header">
-    {% for l in site.data.libraries %}
-      <a href="" ng-click="toggle('{{l.name}}')">{{l.name}}</a> | 
-    {% endfor %}
-  </div>
-  <br/>
-
-    <div class="col-md-offset-4" ng-show="!show">
-      <h1>&uarr;Select one library!&uarr;</h1>
-    </div>
-      {% for l in site.data.libraries %}
-        <div class="lib" ng-show="show.{{l.name}}" ng-init="initializeLibrary('{{l.name}}')">
-          <h4>{{l.name}}</h4>
-          {%for example in l.examples%}
-            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('{{l.name}}')">
-              <p>{{example.title}}</p>
-              {{example.html}}
-            </div>
-          {% endfor %}
-        </div>
-      {% endfor %}
+ 
 </div>

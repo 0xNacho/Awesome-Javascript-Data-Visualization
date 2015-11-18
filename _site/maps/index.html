@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>About</title>
+    <title>Maps</title>
     <meta name="description" content="Awesome collection of data visualization libraries. Please help me to make it more awesome!">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="https://0xnacho.github.io/Awesome-Javascript-Data-Visualization/about/">
+    <link rel="canonical" href="https://0xnacho.github.io/Awesome-Javascript-Data-Visualization/maps/">
     <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
 </head>
 
@@ -69,11 +69,21 @@
         <div class="post">
 
   <article class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+    <div ng-app="app" ng-controller="MainController" class="container-fluid">
+  <div class="container">
 
-<p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
+    <h3>What we already have: <span ng-bind="libraries"></span> mapping libraries and <span ng-bind="examples"></span> examples!</h3>
+  </div>
+  <div id="link-header">
+    
+  </div>
+  <br/>
 
-<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
+    <div class="col-md-offset-4" ng-show="!show">
+      <h1>&uarr;Select one library!&uarr;</h1>
+    </div>
+      
+</div>
 
   </article>
 
