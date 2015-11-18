@@ -1,0 +1,8 @@
+- name: LeafletJS
+  info: An open-source JavaScript library for mobile-friendly interactive maps.
+  cdn:
+    js: http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js
+    css: http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css
+  examples:
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/ovswqpau/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Minimal map
