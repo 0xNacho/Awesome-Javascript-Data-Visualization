@@ -2,8 +2,8 @@
 title: Awesome Javascript data visualization library repository
 email: 0xnacho@gmail.com
 description: Awesome collection of data visualization libraries. Please help me to make it more awesome!
-baseurl: "http://0xnacho.github.io/Awesome-Javascript-Data-Visualization" # the subpath of your site, e.g. /blog/
-#baseurl: ""
+#baseurl: "http://0xnacho.github.io/Awesome-Javascript-Data-Visualization" # the subpath of your site, e.g. /blog/
+baseurl: ""
 url: "http://0xnacho.github.io/Awesome-Javascript-Data-Visualization" # the base hostname & protocol for your site
 twitter_username: 0xNacho
 github_username:  0xNacho
