@@ -67,7 +67,130 @@
     <div class="page-content">
       <div class="wrapper">
         <div  class="container-fluid">
-  <div class="row">
+  <h3>Charts</h3>
+  <div class="row table-responsive">
+  	<table id="table" class="table">
+  		<tr>
+  			<th>Name</th>
+  			<th>Compressed Size</th>
+  			<th>Version</th>
+  			<th>Dependencies</th>
+  		</tr>
+	  
+	  	<tr>
+	  		<td>HighCharts</td>
+	  		<td>165 KB</td>
+	  		<td>4.1.9</td>
+	  		<td></td>
+
+	  	</tr>
+	  
+	  	<tr>
+	  		<td>amCharts</td>
+	  		<td>213 KB</td>
+	  		<td>3</td>
+	  		<td></td>
+
+	  	</tr>
+	  
+	  	<tr>
+	  		<td>nvD3</td>
+	  		<td>211 KB</td>
+	  		<td>1.8.1</td>
+	  		<td><a href='http://d3js.org' target='blank'>D3.js</a></td>
+
+	  	</tr>
+	  
+  </table>
+  </div> 
+  <h3>Graphs</h3>
+  <div class="row table-responsive">
+    <table id="table" class="table">
+      <tr>
+        <th>Name</th>
+        <th>Compressed Size</th>
+        <th>Version</th>
+        <th>Dependencies</th>
+        <th>License</th>
+      </tr>
+    
+      <tr>
+        <td>VivaGraphJS</td>
+        <td>60.4 KB</td>
+        <td>0.8.1</td>
+        <td></td>
+        <td>BSD 3</td>
+      </tr>
+    
+      <tr>
+        <td>sigmaJS</td>
+        <td>118 KB</td>
+        <td>1.0.3</td>
+        <td></td>
+        <td>MIT</td>
+      </tr>
+    
+      <tr>
+        <td>CytoscapeJS</td>
+        <td>263 KB</td>
+        <td>2.5.0</td>
+        <td></td>
+        <td>LGPL3</td>
+      </tr>
+    
+  </table>
+  </div> 
+  <h3>Maps</h3>
+  <div class="row table-responsive">
+    <table id="table" class="table">
+      <tr>
+        <th>Name</th>
+        <th>Compressed Size</th>
+        <th>Version</th>
+        <th>Dependencies</th>
+      </tr>
+    
+      <tr>
+        <td>LeafletJS</td>
+        <td>131 KB</td>
+        <td>0.7.7</td>
+        <td></td>
+
+      </tr>
+    
+      <tr>
+        <td>GoogleMaps</td>
+        <td> KB</td>
+        <td>3</td>
+        <td></td>
+
+      </tr>
+    
+      <tr>
+        <td>ArcGIS</td>
+        <td>961 KB</td>
+        <td>3.14</td>
+        <td></td>
+
+      </tr>
+    
+      <tr>
+        <td>Openlayers</td>
+        <td>509 KB</td>
+        <td>3.11.1</td>
+        <td></td>
+
+      </tr>
+    
+      <tr>
+        <td>Polymaps</td>
+        <td>34 KB</td>
+        <td>2.5.1</td>
+        <td></td>
+
+      </tr>
+    
+  </table>
   </div> 
 </div>
 
@@ -135,6 +258,12 @@
     <script src="/vendor/js/bootstrap.min.js"></script>
     <script src="/vendor/js/angular.min.js"></script>
     <script src="/vendor/js/app.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.5/js/jquery.tablesorter.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#table").tablesorter();
+    })
+    </script>
   </body>
 
 </html>

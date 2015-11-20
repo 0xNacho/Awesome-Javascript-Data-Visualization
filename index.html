@@ -3,6 +3,65 @@ layout: default
 ---
 
 <div  class="container-fluid">
-  <div class="row">
+  <h3>Charts</h3>
+  <div class="row table-responsive">
+  	<table id="table" class="table">
+  		<tr>
+  			<th>Name</th>
+  			<th>Compressed Size</th>
+  			<th>Version</th>
+  			<th>Dependencies</th>
+  		</tr>
+	  {%for library in site.data.charts%}
+	  	<tr>
+	  		<td>{{library.name}}</td>
+	  		<td>{{library.size}} KB</td>
+	  		<td>{{library.version}}</td>
+	  		<td>{{library.dependencies}}</td>
+
+	  	</tr>
+	  {%endfor%}
+  </table>
+  </div> 
+  <h3>Graphs</h3>
+  <div class="row table-responsive">
+    <table id="table" class="table">
+      <tr>
+        <th>Name</th>
+        <th>Compressed Size</th>
+        <th>Version</th>
+        <th>Dependencies</th>
+        <th>License</th>
+      </tr>
+    {%for library in site.data.graphs%}
+      <tr>
+        <td>{{library.name}}</td>
+        <td>{{library.size}} KB</td>
+        <td>{{library.version}}</td>
+        <td>{{library.dependencies}}</td>
+        <td>{{library.license}}</td>
+      </tr>
+    {%endfor%}
+  </table>
+  </div> 
+  <h3>Maps</h3>
+  <div class="row table-responsive">
+    <table id="table" class="table">
+      <tr>
+        <th>Name</th>
+        <th>Compressed Size</th>
+        <th>Version</th>
+        <th>Dependencies</th>
+      </tr>
+    {%for library in site.data.maps%}
+      <tr>
+        <td>{{library.name}}</td>
+        <td>{{library.size}} KB</td>
+        <td>{{library.version}}</td>
+        <td>{{library.dependencies}}</td>
+
+      </tr>
+    {%endfor%}
+  </table>
   </div> 
 </div>

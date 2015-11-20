@@ -1,5 +1,10 @@
 - name: VivaGraphJS
   info: Very fast + with the WebGL renderer it works thousands of nodes.
+  dependencies: 
+  render: "WebGL, SVG"
+  size: 60.4
+  version: 0.8.1
+  license: "BSD 3"
   cdn:
     js:
     css:
@@ -10,7 +15,12 @@
       title: Link labels
 
 - name: sigmaJS
-  info: Very flexible, includes out of the box support for touch, responsiveness, rescaling, recentering.
+  info: "Very flexible, includes out of the box support for touch, responsiveness, rescaling, recentering."
+  dependencies: 
+  render: "Canvas, WebGL"
+  size: 118
+  version: 1.0.3
+  license: "MIT"
   cdn:
     js: https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.0.3/sigma.min.js
     css:
@@ -19,7 +29,12 @@
       title: Simple example
 
 - name: CytoscapeJS
-  info: Graph theory (a.k.a. network) library for analysis and visualisation.
+  info: "Graph theory (a.k.a. network) library for analysis and visualisation."
+  dependencies: 
+  render: "SVG"
+  size: 263
+  version: 2.5.0
+  license: "LGPL3"
   cdn:
     js: https://cdnjs.cloudflare.com/ajax/libs/cytoscape/2.5.0/cytoscape.js
     css:

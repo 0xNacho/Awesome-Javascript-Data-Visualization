@@ -1,6 +1,10 @@
 #Libraries
 - name: HighCharts
   info: Create interactive charts easily for your web projects.
+  dependencies: 
+  render: SVG
+  size: 165
+  version: 4.1.9
   cdn:
     js: https://cdnjs.cloudflare.com/ajax/libs/highcharts/4.1.9.1/highcharts.src.js
     css:
@@ -20,6 +24,10 @@
 
 - name: amCharts
   info: Charting library &amp; maps.Where all data goes visual.
+  dependencies:
+  render: SVG
+  size: 213
+  version: 3 
   cdn:
     js: https://cdnjs.cloudflare.com/ajax/libs/amcharts/3.13.0/amcharts.js
     css:
@@ -37,6 +45,10 @@
 
 - name: nvD3
   info: This project is an attempt to build re-usable charts and chart components for d3.js without taking away the power that d3.js gives you.
+  dependencies: "<a href='http://d3js.org' target='blank'>D3.js</a>"
+  render: SVG
+  size: 211
+  version: 1.8.1
   cdn:
     js: https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js
     css: https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.css

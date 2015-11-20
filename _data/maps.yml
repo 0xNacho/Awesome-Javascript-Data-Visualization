@@ -1,5 +1,9 @@
 - name: LeafletJS
   info: An open-source JavaScript library for mobile-friendly interactive maps.
+  dependencies: 
+  render: HTML
+  size: 131
+  version: 0.7.7
   cdn:
     js: http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js
     css: http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css
@@ -9,6 +13,10 @@
 
 - name: GoogleMaps
   info: Add the data developers trust. Build a custom map for your site using styled maps, 3D buildings, indoor floor plans, multi-modal directions and more.
+  dependencies: 
+  render: HTML
+  size:
+  version: 3
   cdn:
     js: http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js
     css: http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css
@@ -19,3 +27,50 @@
       title: Multiple markers
     - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/wLqbj22y/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
       title: Custom controls
+
+- name: ArcGIS
+  info: "Discover the capabilities of ArcGIS throught powerful location services, data management, analysis and mapping."
+  dependencies: 
+  render: HTML
+  size: 961
+  version: 3.14
+  cdn:
+    js:
+    css:
+  examples:
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/e8m54gc7/1/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: On Click example (view console log)
+    - html: <iframe width="100%" height="300" src="//developers.arcgis.com/javascript/samples/widget_directions_basic/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Directions
+
+- name: Openlayers
+  info: A high-performance, feature-packed library for all your mapping needs.
+  dependencies: 
+  render: HTML
+  size: 509
+  version: 3.11.1
+  cdn:
+    js: https://cdnjs.cloudflare.com/ajax/libs/ol3/3.11.1/ol-debug.min.js
+    css: https://cdnjs.cloudflare.com/ajax/libs/ol3/3.11.1/ol.min.css
+  examples:
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/ta9cg4wp/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Basic Example
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/25n10vf4/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Tile Layer
+
+- name: Polymaps
+  info: JavaScript library for image- and vector-tiled maps using SVG
+  dependencies: 
+  render: HTML
+  size: 34
+  version: 2.5.1
+  cdn:
+    js: https://cdnjs.cloudflare.com/ajax/libs/polymaps/2.5.1/polymaps.min.js
+    css:
+  examples:
+    - html: <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/zjwzwn6x/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      title: Basic Example
+
+
+
+

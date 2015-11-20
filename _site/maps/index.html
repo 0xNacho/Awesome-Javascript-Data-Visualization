@@ -80,6 +80,12 @@
     
       <a href="" ng-click="toggle('GoogleMaps')">GoogleMaps</a> | 
     
+      <a href="" ng-click="toggle('ArcGIS')">ArcGIS</a> | 
+    
+      <a href="" ng-click="toggle('Openlayers')">Openlayers</a> | 
+    
+      <a href="" ng-click="toggle('Polymaps')">Polymaps</a> | 
+    
   </div>
   <br/>
 
@@ -113,6 +119,46 @@
             <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('GoogleMaps')">
               <p>Custom controls</p>
               <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/wLqbj22y/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+        </div>
+      
+        <div class="row" ng-show="show.ArcGIS" ng-init="initializeLibrary('ArcGIS')">
+          <h4>ArcGIS</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('ArcGIS')">
+              <p>On Click example (view console log)</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/e8m54gc7/1/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('ArcGIS')">
+              <p>Directions</p>
+              <iframe width="100%" height="300" src="//developers.arcgis.com/javascript/samples/widget_directions_basic/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+        </div>
+      
+        <div class="row" ng-show="show.Openlayers" ng-init="initializeLibrary('Openlayers')">
+          <h4>Openlayers</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('Openlayers')">
+              <p>Basic Example</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/ta9cg4wp/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('Openlayers')">
+              <p>Tile Layer</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/25n10vf4/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            </div>
+          
+        </div>
+      
+        <div class="row" ng-show="show.Polymaps" ng-init="initializeLibrary('Polymaps')">
+          <h4>Polymaps</h4>
+          
+            <div class="col-md-6 col-xs-12 col-lg-6"  ng-init="initialize('Polymaps')">
+              <p>Basic Example</p>
+              <iframe width="100%" height="300" src="//jsfiddle.net/0xNacho/zjwzwn6x/embedded/result%2Cjs%2Chtml%2Ccss/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
             </div>
           
         </div>
@@ -187,6 +233,12 @@
     <script src="/vendor/js/bootstrap.min.js"></script>
     <script src="/vendor/js/angular.min.js"></script>
     <script src="/vendor/js/app.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.5/js/jquery.tablesorter.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#table").tablesorter();
+    })
+    </script>
   </body>
 
 </html>
