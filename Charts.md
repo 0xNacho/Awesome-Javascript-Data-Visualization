@@ -40,6 +40,14 @@
   * Compressed size: 237KB
   * Version: 1.8.0
   * Stars: Not a github project
+  
+* [ZingChart](https://www.zingchart.com): Powerful Javascript library for visualizing data.
+  * License: Free for non-commercial use, paid for commercial use
+  * Dependencies: -
+  * Render as: SVG (Option to output as Canvas)
+  * Compressed size: 290kb
+  * Version: 2.8.6
+  * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/zingchart/ZingChart&type=star)
 
 * [gRaphaël](http://g.raphaeljs.com): gRaphaël’s goal is to help you create stunning charts on your website. It is based on Raphaël graphics library
   * License: MIT License
