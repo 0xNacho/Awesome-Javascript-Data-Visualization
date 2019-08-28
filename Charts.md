@@ -7,7 +7,7 @@
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/highslide-software/highcharts.com&type=star)
 
 
-*[NVD3](http://nvd3.org):This project is an attempt to build re-usable charts and chart components for d3.js without taking away the power that d3.js gives you. 
+* [NVD3](http://nvd3.org): This project is an attempt to build re-usable charts and chart components for d3.js without taking away the power that d3.js gives you. 
   * License: Apache License, Version 2.0 
   * Dependencies: [D3.js](http://d3js.org) (148KB, v3.5.8)
   * Render as: SVG
@@ -16,7 +16,7 @@
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/novus/nvd3&type=star)
 
 
-* [C3](http://c3js.org): D3-based reusable chart library
+* [C3](http://c3js.org): D3-based reusable chart library.
   * License: MIT License
   * Dependencies: [D3.js](http://d3js.org) (148KB, v3.5.8)
   * Render as: SVG
@@ -25,7 +25,7 @@
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/masayuki0812/c3&type=star)
 
 
-* [Chart.js](http://www.chartjs.org): Simple, clean and engaging charts for designers and developers
+* [Chart.js](http://www.chartjs.org): Simple, clean and engaging charts for designers and developers.
   * License: MIT License
   * Dependencies: -
   * Render as: Canvas
@@ -41,7 +41,7 @@
   * Version: 1.8.0
   * Stars: Not a github project
 
-* [gRaphaël](http://g.raphaeljs.com): gRaphaël’s goal is to help you create stunning charts on your website. It is based on Raphaël graphics library
+* [gRaphaël](http://g.raphaeljs.com): gRaphaël’s goal is to help you create stunning charts on your website. It is based on Raphaël graphics library.
   * License: MIT License
   * Dependencies: [Raphaël](http://raphaeljs.com) (91KB, v2.1.4)
   * Render as: SVG
@@ -57,7 +57,7 @@
   * Version: Unknown
   * Stars: Not a Github project
 
-* [ChartistJS](http://gionkunz.github.io/chartist-js/): Simple responsive charts
+* [ChartistJS](http://gionkunz.github.io/chartist-js/): Simple responsive charts.
   * License:  Apache 2.0 License
   * Dependencies: -
   * Render as: SVG
@@ -65,7 +65,7 @@
   * Version: 0.9.5
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/gionkunz/chartist-js&type=star)
  
-* [MetricsGraphicsJS](http://metricsgraphicsjs.org/): MetricsGraphics.js is a library built on top of D3 that is optimized for visualizing and laying out time-series data
+* [MetricsGraphicsJS](http://metricsgraphicsjs.org/): MetricsGraphics.js is a library built on top of D3 that is optimized for visualizing and laying out time-series data.
   * License:  Mozilla Public License, version 2.0
   * Dependencies: [D3.js](http://d3js.org) (148KB, v3.5.8)
   * Render as: SVG
@@ -74,7 +74,7 @@
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/mozilla/metrics-graphics&type=star)
 
   
-* [dc.js](http://dc-js.github.io/dc.js/): dc.js is a javascript charting library with native crossfilter support and allowing highly efficient exploration on large multi-dimensional dataset
+* [dc.js](http://dc-js.github.io/dc.js/): dc.js is a javascript charting library with native crossfilter support and allowing highly efficient exploration on large multi-dimensional dataset.
   * License:  Apache 2.0 License
   * Dependencies: [D3.js](http://d3js.org) (148KB, v3.5.8)
   * Render as: SVG
@@ -90,7 +90,7 @@
   * Version: 0.8.4
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/epochjs/epoch&type=star)
 
-* [Smoothie Charts](http://smoothiecharts.org/): JavaScript charts for realtime streaming data
+* [Smoothie Charts](http://smoothiecharts.org/): JavaScript charts for realtime streaming data.
   * License:  MIT License
   * Dependencies: -
   * Render as: Canvas
@@ -122,3 +122,12 @@
   * Compressed size: 213KB
   * Version: 3
   * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/amcharts/amcharts3&type=star)
+  
+
+* [AnyChart](https://www.anychart.com/): JavaScript libary for creating charts and dashboards designed to be embedded and integrated.
+  * License:  Proprietary, free for non-commercial use
+  * Dependencies: -
+  * Render as: SVG/VML
+  * Compressed size: 209KB
+  * Version: 8.7.0
+  * Stars: ![](http://tuan-flask.herokuapp.com/service/star?url=https://github.com/anychart/anychart3&type=star)
